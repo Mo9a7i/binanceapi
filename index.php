@@ -19,7 +19,7 @@ foreach($ARRAY_BINANCE_MARKETS as $MARKET) {
 
     #Print info for BTC markets
     if ($MARKET_BASE == "BTC") {
-        echo "Market: ".$TICKER." Last Price: ".$MARKET->lastPrice."\n\r";
+        echo "Market: ".$TICKER." Last Price: ".$MARKET->lastPrice."<br />";
     }
 }
 # HTML Formatting
